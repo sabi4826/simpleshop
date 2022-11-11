@@ -20,6 +20,10 @@
   grid-template-columns: auto 200px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .Header {
   background-color: royalblue;
   grid-column: 1/-1;
