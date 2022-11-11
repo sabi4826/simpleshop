@@ -27,11 +27,11 @@ img {
 .Header {
   background-color: royalblue;
   grid-column: 1/-1;
+  gap: 2rem;
 }
-.ProductList {
-  background-color: lightblue;
+.Products {
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax((100px, 400px)));
+  grid-template-columns: repeat(auto-fit, minmax((100px, 300px)));
   gap: 1rem;
 }
 
